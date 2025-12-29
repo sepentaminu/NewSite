@@ -1,134 +1,127 @@
 <!DOCTYPE html>
-<html class="dark" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Ashesh of Solas - Welcome</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "primary": "#cf1736",
-              "background-light": "#f8f6f6",
-              "background-dark": "#211114",
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Ashes of Solas - Welcome</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#cf1736",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#211114",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                },
             },
-            fontFamily: {
-              "display": ["Spline Sans", "sans-serif"]
-            },
-            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-            animation: {
-                'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-            }
-          },
-        },
-      }
+        }
     </script>
-<style>.vignette {
-            background: radial-gradient(circle at center, transparent 0%, rgba(15, 8, 9, 0.4) 60%, rgba(5, 2, 3, 0.95) 100%);
-        }
-        .text-glow {
-            text-shadow: 0 0 20px rgba(207, 23, 54, 0.5);
-        }
+    <style>.vignette {
+        background: radial-gradient(circle at center, transparent 0%, rgba(15, 8, 9, 0.4) 60%, rgba(5, 2, 3, 0.95) 100%);
+    }
+
+    .text-glow {
+        text-shadow: 0 0 20px rgba(207, 23, 54, 0.5);
+    }
     </style>
-<style>
+    <style>
     body {
       min-height: max(884px, 100dvh);
     }
   </style>
-<style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-<style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-  </head>
+</head>
 <body class="bg-background-dark text-white font-display overflow-hidden select-none">
 <div class="relative w-full h-screen flex flex-col justify-between">
-<div class="absolute inset-0 z-0">
-<img alt="Dark fantasy landscape with ruined castle and fog" class="w-full h-full object-cover opacity-60" data-alt="Dark fantasy landscape with ruined castle and fog" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNNIkEb0YetIW3vdXWzVOHwkuLTrDydqdYz5V8Los6fyrjYL4APsKLTtSrM8GkJ82BPDna23cgDGdUgrdgjEpV4nvbXEmwuV2SAqIFr-kN_OjxoZMUT0mU8VtjKVql2znUc0MgmnW0dRKHdIy1IT_gmBE3nvaIwf_HJCCZaTlf0nZfuVNcXYNV7-lUg7MtiB_fFKKNKo1_hqd3s_pWarYjKLo1Ke-OYauej6KTuNLB6FUULpwETJCPewUoC8YTaGorPL7xSjoxxRc"/>
-<div class="absolute inset-0 vignette z-10"></div>
-<div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-[#181112] via-[#181112]/80 to-transparent z-10"></div>
-</div>
-<div class="relative z-20 w-full pt-12 pb-4 px-6 flex justify-between items-start">
-<div class="flex flex-col gap-0.5 opacity-50">
-<span class="text-[10px] tracking-widest uppercase font-bold">Ver 2.0.1</span>
-<span class="text-[10px] tracking-widest">DARK STUDIO</span>
-</div>
-<div class="flex gap-4">
-<button class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors group">
-<span class="material-symbols-outlined text-white/80 group-hover:text-white" style="font-size: 20px;">volume_up</span>
-</button>
-<button class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors group">
-<span class="material-symbols-outlined text-white/80 group-hover:text-white" style="font-size: 20px;">info</span>
-</button>
-<button class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors group">
-<span class="material-symbols-outlined text-white/80 group-hover:text-white" style="font-size: 20px;">settings</span>
-</button>
-</div>
-</div>
-<div class="flex-grow z-20"></div>
-<div class="relative z-20 flex flex-col items-center justify-end w-full pb-12 px-6">
-<div class="mb-2 text-center">
-<h1 class="text-5xl md:text-7xl font-bold tracking-tighter leading-[0.9] text-white text-glow uppercase">
-                    ASHESH<br/>
-<span class="text-primary">OF SOLAS</span>
-</h1>
-</div>
-<div class="flex items-center gap-4 py-6 w-full max-w-xs justify-center opacity-80">
-<div class="h-[1px] w-8 bg-gradient-to-r from-transparent to-primary"></div>
-<div class="w-2 h-2 rotate-45 bg-primary"></div>
-<div class="h-[1px] w-8 bg-gradient-to-l from-transparent to-primary"></div>
-</div>
-<p class="text-white/70 text-base md:text-lg font-normal leading-relaxed text-center max-w-md mb-8">
-                The realm has fallen. Shadows wait for no one... <br/>
-                Will you embrace the darkness?
-            </p>
-<button class="relative w-full max-w-[320px] group overflow-hidden rounded-xl bg-primary h-14 shadow-[0_0_30px_rgba(207,23,54,0.4)] hover:shadow-[0_0_50px_rgba(207,23,54,0.6)] transition-all duration-300 transform active:scale-95">
-<div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
-<div class="relative flex items-center justify-center gap-2">
-<span class="text-white text-lg font-bold tracking-widest uppercase">Enter the Realm</span>
-<span class="material-symbols-outlined text-white animate-pulse" style="font-size: 20px;">arrow_forward</span>
-</div>
-</button>
-<button class="mt-4 relative w-full max-w-[320px] flex items-center justify-center gap-3 h-14 rounded-xl border border-white/20 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-white/40 transition-all duration-300 group">
-<span class="material-symbols-outlined text-primary group-hover:text-white transition-colors" style="font-size: 24px;">play_circle</span>
-<span class="text-white/90 text-base font-bold tracking-widest uppercase group-hover:text-white transition-colors">Watch Trailer</span>
-</button>
-<div class="h-6"></div>
-</div>
+    <div class="absolute inset-0 z-0">
+        <img alt="Dark fantasy landscape with ruined castle and fog" class="w-full h-full object-cover opacity-60" data-alt="Dark fantasy landscape with ruined castle and fog" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNNIkEb0YetIW3vdXWzVOHwkuLTrDydqdYz5V8Los6fyrjYL4APsKLTtSrM8GkJ82BPDna23cgDGdUgrdgjEpV4nvbXEmwuV2SAqIFr-kN_OjxoZMUT0mU8VtjKVql2znUc0MgmnW0dRKHdIy1IT_gmBE3nvaIwf_HJCCZaTlf0nZfuVNcXYNV7-lUg7MtiB_fFKKNKo1_hqd3s_pWarYjKLo1Ke-OYauej6KTuNLB6FUULpwETJCPewUoC8YTaGorPL7xSjoxxRc"/>
+        <div class="absolute inset-0 vignette z-10"></div>
+        <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-[#181112] via-[#181112]/80 to-transparent z-10"></div>
+    </div>
+    <div class="relative z-20 w-full pt-12 pb-4 px-6 flex justify-between items-start">
+        <div class="flex flex-col gap-0.5 opacity-50">
+            <span class="text-[10px] tracking-widest uppercase font-bold">Ver 2.0.1</span>
+            <span class="text-[10px] tracking-widest">DARK STUDIO</span>
+        </div>
+        <div class="flex gap-4">
+            <button class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors group">
+                <span class="material-symbols-outlined text-white/80 group-hover:text-white" style="font-size: 20px;">volume_up</span>
+            </button>
+            <button class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors group">
+                <span class="material-symbols-outlined text-white/80 group-hover:text-white" style="font-size: 20px;">info</span>
+            </button>
+            <button class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors group">
+                <span class="material-symbols-outlined text-white/80 group-hover:text-white" style="font-size: 20px;">settings</span>
+            </button>
+        </div>
+    </div>
+    <div class="flex-grow z-20"></div>
+    <div class="relative z-20 flex flex-col items-center justify-end w-full pb-12 px-6">
+        <div class="mb-2 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tighter leading-[0.9] text-white text-glow uppercase">
+                ASHES<br/>
+                <span class="text-primary">OF SOLAS</span>
+            </h1>
+        </div>
+        <div class="flex items-center gap-4 py-6 w-full max-w-xs justify-center opacity-80">
+            <div class="h-[1px] w-8 bg-gradient-to-r from-transparent to-primary"></div>
+            <div class="w-2 h-2 rotate-45 bg-primary"></div>
+            <div class="h-[1px] w-8 bg-gradient-to-l from-transparent to-primary"></div>
+        </div>
+        <p class="text-white/70 text-base md:text-lg font-normal leading-relaxed text-center max-w-md mb-8">
+            The realm has fallen. Shadows wait for no one... <br/>
+            Will you embrace the darkness?
+        </p>
+        <button class="relative w-full max-w-[320px] group overflow-hidden rounded-xl bg-primary h-14 shadow-[0_0_30px_rgba(207,23,54,0.4)] hover:shadow-[0_0_50px_rgba(207,23,54,0.6)] transition-all duration-300 transform active:scale-95">
+            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+            <div class="relative flex items-center justify-center gap-2">
+                <span class="text-white text-lg font-bold tracking-widest uppercase">Enter the Realm</span>
+                <span class="material-symbols-outlined text-white animate-pulse" style="font-size: 20px;">arrow_forward</span>
+            </div>
+        </button>
+        <button class="mt-4 relative w-full max-w-[320px] flex items-center justify-center gap-3 h-14 rounded-xl border border-white/20 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-white/40 transition-all duration-300 group">
+            <span class="material-symbols-outlined text-primary group-hover:text-white transition-colors" style="font-size: 24px;">play_circle</span>
+            <span class="text-white/90 text-base font-bold tracking-widest uppercase group-hover:text-white transition-colors">Watch Trailer</span>
+        </button>
+        <div class="h-6"></div>
+    </div>
 </div>
 <nav class="fixed bottom-0 w-full bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-white/10 pb-5 pt-3 px-6 z-40">
-<div class="flex justify-between items-center max-w-md mx-auto">
-<a class="flex flex-col items-center gap-1 text-primary" href="index.html">
-<span class="material-symbols-outlined" style="font-size: 24px;">home</span>
-<span class="text-[10px] font-medium">خانه</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="story.html">
-<span class="material-symbols-outlined" style="font-size: 24px;">menu_book</span>
-<span class="text-[10px] font-medium">داستان</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="features.html">
-<span class="material-symbols-outlined" style="font-size: 24px;">swords</span>
-<span class="text-[10px] font-bold">امکانات</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="gallery.html">
-<span class="material-symbols-outlined" style="font-size: 24px;">photo_library</span>
-<span class="text-[10px] font-medium">گالری</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="plan.html">
-<span class="material-symbols-outlined" style="font-size: 24px;">map</span>
-<span class="text-[10px] font-medium">برنامه</span>
-</a>
-</div>
+    <div class="flex justify-between items-center max-w-md mx-auto">
+        <a class="flex flex-col items-center gap-1 text-primary" href="index.html">
+            <span class="material-symbols-outlined" style="font-size: 24px;">home</span>
+            <span class="text-[10px] font-medium">Home</span>
+        </a>
+        <a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="story.html">
+            <span class="material-symbols-outlined" style="font-size: 24px;">menu_book</span>
+            <span class="text-[10px] font-medium">Story</span>
+        </a>
+        <a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="features.html">
+            <span class="material-symbols-outlined" style="font-size: 24px;">swords</span>
+            <span class="text-[10px] font-bold">Features</span>
+        </a>
+        <a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="gallery.html">
+            <span class="material-symbols-outlined" style="font-size: 24px;">photo_library</span>
+            <span class="text-[10px] font-medium">Gallery</span>
+        </a>
+        <a class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-primary transition-colors" href="plan.html">
+            <span class="material-symbols-outlined" style="font-size: 24px;">map</span>
+            <span class="text-[10px] font-medium">Plan</span>
+        </a>
+    </div>
 </nav>
-</body></html>
+</body>
+</html>
